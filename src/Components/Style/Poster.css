@@ -1,0 +1,47 @@
+.imgContainer {
+  position: relative;
+}
+.title {
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13.5px;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.year {
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+}
+
+.container-i {
+  text-align: center;
+  text-decoration: none;
+}
+
+.poster-img {
+  background-size: cover;
+  height: 150px;
+  border-radius: 3.5px;
+  transition: opacity 0.18s ease-in-out;
+}
+
+.poster-img:hover {
+  opacity: 0.3;
+}
+
+.rating {
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  position: absolute;
+  bottom: 45px;
+  right: 17px;
+  opacity: 0;
+  transition: opacity 0.18s ease-in-out;
+}
+
+.poster-img:hover + .rating {
+  opacity: 1;
+}

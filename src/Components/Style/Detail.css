@@ -1,0 +1,86 @@
+.container-d {
+    padding: 30px 265px 0px;
+    margin-top:50px;
+}
+
+.detail-img {
+    display:inline-block;
+    height:500px;
+    background-size:cover;
+    opacity : 0.5;
+}
+
+.description {
+    display:inline-block;
+    height:500px;
+    position:relative;
+    text-align:center;
+
+}
+
+.detail-title1{
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    width:350px;
+    margin-bottom:30px;
+}
+
+.detail-title2{
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    width:350px;
+    margin-bottom:30px;
+}
+
+.detail-genres {
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    
+    margin-bottom:30px;
+}
+
+.detail-date1 {
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    margin-bottom:30px;
+}
+
+.detail-date2 {
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    margin-bottom:30px;
+}
+
+.detail-rating {
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    margin-bottom:30px;
+}
+
+.detail-adult {
+    display:block;
+    height:15%;
+    color:rgba(255,255,255,0.85);
+    font-size:25px;
+    margin-bottom:30px;
+}
+
+
+.border {
+    position:absolute;
+    top:90px;
+    left:200px;
+}
+

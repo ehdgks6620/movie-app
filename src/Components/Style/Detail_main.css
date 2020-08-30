@@ -1,0 +1,76 @@
+.Container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.Backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.6;
+  filter: blur(3.5px);
+  z-index: 0;
+}
+
+.Content {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.Cover {
+  width: 30%;
+  background-size: cover;
+  background-position: center center;
+  height: 50%;
+  position: relative;
+  border-radius: 4px;
+}
+
+.Data {
+  width: 70%;
+  margin-left: 80px;
+}
+
+.Title {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+}
+
+.ItemContainer {
+  margin-top: 10px;
+}
+
+.Item {
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #ffffffd9;
+  font-weight: 400;
+}
+
+.divider {
+  color: white;
+  margin: 0px 10px;
+  vertical-align: top;
+}
+
+.OverViewForm {
+  margin-top: 15px;
+  width: 70%;
+  text-align: justify;
+}
+
+.OverView {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13.6px;
+  font-weight: 700;
+}
